@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs"
 import User from "../models/userModel.js"
 import dotenv from 'dotenv';
 import sendMail from "../configs/Mail.js"
+import validator from "validator";
 
 dotenv.config();
 
